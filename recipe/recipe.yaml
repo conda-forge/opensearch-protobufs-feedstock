@@ -1,6 +1,6 @@
 context:
   name: opensearch-protobufs
-  version: "1.4.0"
+  version: "1.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -12,7 +12,7 @@ package:
 # so installing from the pre-built wheel is equivalent to building from source.
 source:
   - url: https://pypi.org/packages/py3/o/opensearch_protobufs/opensearch_protobufs-${{ version }}-py3-none-any.whl
-    sha256: 5e01933cf0c3dcfff7a490ab48f75c3942371a24461372529c7f8c40b5f9fb31
+    sha256: dee981d8ba1588f8827e1da6ba567e8b49042bce73421dc6360890c122617d7c
   - url: https://raw.githubusercontent.com/opensearch-project/opensearch-protobufs/${{ version }}/LICENSE.txt
     sha256: 09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b
 
